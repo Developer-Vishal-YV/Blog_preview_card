@@ -1,3 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --color-Yellow: #F4D04E;
+  --font-Figtree: "Figtree", sans-serif;
+  --shadow-Fixed: 8px 8px 0px 0px #000000;
+}

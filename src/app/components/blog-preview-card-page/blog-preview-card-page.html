@@ -1,0 +1,13 @@
+<img [src]="blog_image_link" [alt]="blog_image_description" class="mb-6" />
+<div class="flex flex-col items-start gap-6">
+  <div class="flex flex-col items-start gap-3">
+    <span class="text-sm max-md:text-xs font-extrabold py-1 px-3 bg-Yellow rounded-sm text-gray-950">{{modal_title}}</span>
+    <p class="text-sm max-md:text-xs font-medium text-gray-950">{{published_date}}</p>
+    <h1 class="text-2xl max-md:text-xl font-extrabold text-gray-950 hover:text-Yellow hover:cursor-pointer">{{title}}</h1>
+    <p class="text-base max-md:text-sm font-medium text-gray-500">{{description}}</p>
+  </div>
+  <div class="flex justify-start items-center gap-3">
+    <img [src]="user_avatar_image_link" [alt]="user_avatar_image_description" class="h-8 w-8" />
+    <strong class="text-sm font-extrabold text-gray-950">{{user_name}}</strong>
+  </div>
+</div>
