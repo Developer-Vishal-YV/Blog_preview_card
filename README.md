@@ -1,6 +1,35 @@
 # BlogPreviewCard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+A responsive Blog Preview Card built using Angular, TypeScript, and Tailwind CSS. This project demonstrates Angular interpolation, property binding, basic routing, and Tailwind CSS styling with hover effects. This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.4.
+
+## Live Demo
+
+[View Live Website](https://developer-vishal-yv.github.io/Blog_preview_card/)
+
+## Built With:
+
+Angular — Component-based frontend development
+TypeScript — Type-safe application logic
+HTML5 — Page structure
+Tailwind CSS — Utility-first styling, responsive layouts, and hover effects
+
+## Features
+
+Clean and modern blog preview card UI
+Angular interpolation for displaying dynamic content
+Property binding for dynamic element properties
+Basic routing with Angular Router
+Tailwind CSS styling and hover effects on the title
+Responsive design for different screen sizes
+
+## What I Learned
+
+Working with Angular components and templates. 
+Using interpolation and property binding. 
+Implementing basic routing in Angular. 
+Applying Tailwind CSS utility classes. 
+Creating interactive hover effects. 
+Deploying an Angular application using GitHub Pages. 
 
 ## Development server
 
